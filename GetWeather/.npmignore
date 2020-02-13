@@ -1,0 +1,24 @@
+# Lint
+.eslintrc.json
+
+# GIT
+.gitignore
+
+# Travis
+.travis.yml
+
+# Tests
+coverage
+tests
+jest.*
+
+# IntelliJ IDEA files
+.idea
+*.iml
+
+# Packaging
+deployment
+*.tgz
+
+# Secret
+.secrets*

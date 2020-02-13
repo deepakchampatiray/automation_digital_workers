@@ -1,0 +1,21 @@
+{
+    "name": "GetWeather",
+    "description": "Get the weather for next 5 days in 3 hours intervals.",
+    "category": "act",
+    "level": "tech_preview",
+    "config_schema": {
+        "type": "object",
+        "required": [
+            "api_key",
+            "number_of_hours"
+        ],
+        "properties": {
+            "api_key": {
+                "type": "string"
+            },
+            "number_of_hours": {
+                "type": "integer"
+            }
+        }
+    }
+}

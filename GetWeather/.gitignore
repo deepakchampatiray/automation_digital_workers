@@ -1,0 +1,35 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# VSCode files
+.vscode/
+
+# Eclipse files
+/.settings/
+.project
+
+# NodeJS files
+node_modules
+node
+.npmrc
+
+# Code coverage directory
+coverage
+
+# Project env
+.env
+
+# Build
+deployment
+
+# lib
+dist
+reports
+
+# macOS
+.DS_Store
+
+# Packaging
+*.tgz
+package

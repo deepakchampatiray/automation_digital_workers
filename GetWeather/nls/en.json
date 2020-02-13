@@ -1,0 +1,39 @@
+{
+  "skill": {
+    "description": "Get weather information for the next 5 days in 3 hour intervals.",
+    "properties": {
+      "useCountry": {
+        "label": "Estimate the average age of a person for a country"
+      },
+      "countryRetrievalMethod": {
+        "title": "How do you want the country to be provided?",
+        "enumNames": {
+          "setInConfiguration": "Set the country now",
+          "providedAtRuntime": "Set the country at runtime"
+        }
+      },
+      "countryId": {
+        "title": "Country",
+        "placeholder": "Enter the country ID in ISO 3166-1 alpha-2 format. For example: US.",
+        "error": "is not a valid country ID. Only ISO 3166-1 alpha-2 codes are supported."
+      },
+      "link": {
+        "title": "See the available data",
+        "description": "Don't know whether to choose a specific country or not?"
+      }
+    }
+  },
+  "errors": {
+    "unexpectedError": {
+      "name": "UnexpectedError"
+    },
+    "configurationIsNotValid": {
+      "name": "UndefinedConfiguration",
+      "message": "The configuration is not valid"
+    },
+    "eventError": {
+      "name": "Unexpected Configuration Event",
+      "message": "is not a valid event in the configuration of this skill"
+    }
+  }
+}
