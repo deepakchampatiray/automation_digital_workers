@@ -20,7 +20,7 @@
     },
     "dependencies": {
         "accept-language": "^3.0.18",
-        "axios": "^0.19.2"
+        "axios": "^0.21.1"
     },
     "jest": {
         "collectCoverage": true,
